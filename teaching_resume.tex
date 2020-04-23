@@ -1,0 +1,92 @@
+
+\documentclass{src/resume}
+
+\newcommand{\name}{Jason Anderson}
+\newcommand{\phone}{(678) 764-8208}
+\newcommand{\email}{janderson271@stanford.edu}
+
+\newlength\twolistlength
+\setlength{\twolistlength}{2.2cm}
+
+\begin{document}
+
+\vspace{\fill}
+\nametitle{\name}{\email}{\phone}
+
+\section{Education}
+\company{Stanford University}{Stanford, CA}
+
+\shortposition{MS Aeronautics and Astronautics}{Expected Mar 2021}
+\twolist{\twolistlength}{Coursework}{
+ Decision Making Under Uncertainty, Optimal and Learning-based Control, Principles of Robotic Autonomy, Space Mechanics, State Estimation}
+
+\company{University of California, Berkeley (UCB)}{Berkeley, CA}
+\shortposition{BS Mechanical and Nuclear Engineering}{May 2019}
+
+\twolist{\twolistlength}{Coursework}{Data Structures, Estimation, Feedback Control, Finite Element Method, Machine Learning, Model Predictive Control,  Optimization, Nuclear Reactor Theory, Vehicle Dynamics and Control}
+
+\section{Teaching and Work Experience}
+
+\company{Stanford University}{Stanford, CA}
+\shortposition{Teaching Assistant for ME123: Computational Engineering}{Spring 2020}
+\shortposition{Course Grader for EE103: Introduction to Matrix Methods}{Winter 2020}
+
+\company{General Atomics}{San Diego, CA}
+\begin{position}{Legal Engineering Department Specialist}{May 2016 - Jan 2020}
+\item Review agreements, communications, and reports to provide feedback on technical understanding; write procedures; improve logistical work flow with software; liaison among senior executives and technical experts 
+\end{position}
+
+\company{UCB Residence-Hall Tutoring Services}{Berkeley, CA}
+\begin{position}{Physics Tutor}{Dec 2015 - May 2016}
+\item Tutored undergraduate students in Newtonian mechanics, electricity, and magnetism
+\item Wrote challenging review problems and solutions for large student group review sessions
+\end{position}
+
+\company{Mathnasium}{Roswell, GA}
+\begin{position}{Mathematics Tutor}{Aug 2014 - Aug 2015}
+\item Tutored multiple students simultaneously of ages 6-18 of varying skill levels
+\end{position}
+
+\section{Technical Internships}
+
+\company{SpaceX}{Hawthorne, CA}
+
+\shortposition{GNC Associate Engineer - Post Grad - Falcon Avionics and Space Lasers}{Summer 2020}
+
+\company{General Atomics}{San Diego, CA}
+
+\begin{position}{Mechanical and Software Engineering}{Summer 2019}
+\item Fixed look-down gimbal pointing algorithms on weather-balloon hoisted glider under time pressure for mid-summer government customer demo by authoring and performing simulations, lab, and flight tests
+\item Developed dynamic satellite simulation for satellite laser communication to verify pointing control algorithms
+\end{position}
+
+\begin{position}{Mechanical and Software Engineering}{Summer 2018}
+\item Developed Target queuing and clearing house for anti-missile, anti-mortar laser defense gimbal system
+\item Designed and implemented c++ coding of gimbal coordinate system calibration, differential GPS localization, clearing house, and system identification for embedded gimbal control
+\end{position}
+
+\shortposition{Mechanical Engineering}{Summer 2017}
+
+\section{Team Projects}
+\medskip
+
+\begin{position}{Cooperative Oversized Lifting With Two Roomba-like Robots}{Spring 2019}
+\item Two robots lift a fixed-length, long load where the second autonomously follows the first and protects the load from stress in transport: developed model predictive control path planning and low level hardware drivers in python, c++, and ROS
+\end{position}
+
+\begin{position}{Cooperative Lifting with Multiple Quadcopters under MPC in ROS Simulation}{Fall 2018}
+\item Developed model predictive control algorithms, simulator, and visualizer in python and ROS
+\end{position}
+
+\begin{position}{Scale model Autonomous Lane-keeping Car}{Spring 2018}
+\item Assembled and programmed control algorithms for vision-based lane-keeping autonomous car. Placed first in Berkeley Autonomous Race Car final race.
+\end{position}
+
+\section{Skills}
+\twolist{\twolistlength}{Languages}{C++, Java, \LaTeX, Mathematica, Matlab, MCNP, Python, Simulink}
+\twolist{\twolistlength}{Frameworks}{CMake, CVXPY, GTest, JSONRPC, OpenCV, ROS, TensorFlow, YALMIP}
+\twolist{\twolistlength}{Software}{ANSYS, AutoCAD, Clion, IntelliJ, Solidworks, PyCharm}
+
+\vspace{\fill}
+
+\end{document}
