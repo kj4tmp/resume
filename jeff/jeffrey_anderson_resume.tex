@@ -16,7 +16,7 @@
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
-
+\usepackage{gensymb}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -46,7 +46,7 @@
 % Custom commands
 \newcommand{\resumeItem}[2]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    \textbf{#1}{#2 \vspace{-2pt}}
   }
 }
 
@@ -92,69 +92,89 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of California - Los Angeles}{Los Angeles, CA}
-      {Bachelor of Science - Mechanical Engineering}{Expected June 2022}
+      {Bachelor of Science - Mechanical Engineering - GPA: 3.47}{Expected June 2022}
       {\scriptsize{ \footnotesize{\newline{}\textbf{Courses:} 
       Intermediate Fluid Mechanics, Advanced Strength of Materials, Principles of Nanoelectronics, Environmental Nanotechnology
       }}}
     \resumeSubHeadingListEnd
 	    
-\vspace{-5pt}
+\vspace{-10pt}
 
-\section{Experience}
+\section{Work Experience}
 \resumeSubHeadingListStart
-    \resumeSubheading{Company}{Location}
-    {Title}{Dates}
+    \resumeSubheading{NanoClear Technology}{Pasadena, CA}
+    {Process Engineer Associate}{May - Sep. 2019}
     \resumeItemListStart
-        \resumeItem{Detail Title}
-          {details}
+        \resumeItem{}
+          {Custom tooling and supporting software for environmental materials testing of nano-enabled super-hydrophobic and super-hydophillic surfaces.
+Custom chemical process hardware. Porting existing processes to new tooling and
+applications. Enlisting prototyping manufacturers.}
+	\resumeItem{Environmental Chamber}{: Environmental chamber for materials
+testing. Involved Raspberry Pi, Arduino, PID control, and python application. Holds $\pm 0.5 \degree \textsc{C}$ and $-5\% \textsc{RH}$ with cycling behavior.}
     \resumeItemListEnd
-    \resumeSubheading{Company}{Location}
-    {Title}{Dates}
+    \resumeSubheading{California NanoSystems Institute - 
+Integrated Systems Nanofabrication Cleanroom
+}{Los Angeles, CA}
+    {Lab Assistant}{Feb. - Jun. 2019}
     \resumeItemListStart
-        \resumeItem{Detail Title}
-          {details}
+        \resumeItem{}
+          {Ordering chemicals, ensuring tools operate within specifications, chemical waste handling, cleanroom specific tasks (particle count, laundry, etc.).
+}
     \resumeItemListEnd
-    \resumeSubheading{Company}{Location}
-    {Title}{Dates}
+    \resumeSubheading{Wellstar Kennestone Hospital}{Marietta, GA}
+    {Technician - Advanced Endoscopy Center and Linen Technician}{Jun. - Sep. 2018}
     \resumeItemListStart
-        \resumeItem{Detail Title}
-          {details}
+        \resumeItem{}
+          {Vital signs, patient transportation between rooms, room turnover, inventory, customer service, infection protocol and personal protective equipment
+}
+	\resumeItem{}{Distributing Linen }
     \resumeItemListEnd
-    \resumeSubheading{Company}{Location}
-    {Title}{Dates}
+    \resumeSubheading{Canister Design}{Woodstock, GA}
+    {Software Development Intern}{Jun. - Jul. 2017}
     \resumeItemListStart
-        \resumeItem{Detail Title}
-          {details}
+        \resumeItem{}
+          {Introductory Swift IOS Development for MacOS and iOS applications, API interaction
+}
     \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
-\vspace{-5pt}
+\vspace{-10pt}
 \section{Projects}
 \resumeSubHeadingListStart
-\resumeSubItem{Title}{Details}
+\resumeSubheading{Bruin Racing - Super Mileage}{Los Angeles, CA}
+    {Powertrain Lead and Lab Manager}{Sep. 2018 - Pres.}
+    \resumeItemListStart
+    	\resumeItem{}{Managing powertrain members and related projects, shop layout and safety procedures}
+        \resumeItem{Engine Mount}{: Sheet metal design for engine, wheel, and starter motor mounts.}
+        \resumeItem{Fuel Pressurization}{: Pressure vessel and safe regulation for static fuel pressurization and 3D printed mounting hardware.}
+		\resumeItemListEnd
+\vspace{-2pt}
+\resumeSubItem{IdeaHacks2020 Hardware Hackathon, Education Category Winner}{: Automatic book reader using vision processing API on Raspberry Pi in under 48 hours. Five person team.}
+		
+\resumeSubItem{IdeaHacks2019 Hardware Hackathon, 1st Place Winner}{: RFID bike lock in under 48 hours using CAD, 3-D printers, and Arduino. Five person team.}
+
+
 \vspace{2pt}
-\resumeSubItem{Title}{Details}
+\resumeSubheading{UCLA Department of Mechanical and Aerospace Engineering}{Los Angeles, CA}
+    {Student}{Sep. 2018 - Pres.}
+    \resumeItemListStart
+    	\resumeItem{2D Acoustic Mapper}{: Planer acoustic mapping using omnidirectional microphones and speaker.}
+        \resumeItem{Engineering 96: Rockets}{: Carbon fiber and 3D printed model rockets(1-3 ft. in length). Suspended egg payload carrier.}
+		\resumeItemListEnd
 \vspace{2pt}
-\resumeSubItem{Title}{Details}
-\vspace{2pt}
-\resumeSubItem{Title}{Details}
-\vspace{2pt}
-\resumeSubItem{Title}{Details}
+\resumeSubItem{For Fun}{: ESP32-based bluetooth keyboard(in progress). Raspberry Pi home VPN, network DNS ad blocking, and 3D printing server.}
 \vspace{2pt}
 \resumeSubHeadingListEnd
 
-\vspace{-5pt}
+\vspace{-10pt}
 
 \section{Skills Summary}
 	\resumeSubHeadingListStart
-	\resumeSubItem{Languages}{~~~~~~Python, PHP, C++, JavaScript, SQL, Bash, JAVA}
-	\resumeSubItem{Frameworks}{~~~~Scikit, NLTK, SpaCy, TensorFlow, Keras, Django, Flask, NodeJS, LAMP}
-	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Kubernetes, Docker, GIT, PostgreSQL, MySQL, SQLite}
-	\resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows, Arduino, Raspberry, AWS, GCP, Alibaba Cloud, IBM Cloud}
-	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management, Writing, Public Speaking, Time Management}
-
+	\resumeSubItem{Languages}{~~~~~~Python, MATLAB, Julia, \LaTeX, Arduino }
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~SolidWorks, GIT, Minimal Simulink and KiCAD}
+\resumeSubItem{OS}{~~~~~~~~~~~~~~~~~Linux(Manjaro, Ubuntu), Windows, MacOS}
 \resumeSubHeadingListEnd
 
 \vspace{-5pt}
